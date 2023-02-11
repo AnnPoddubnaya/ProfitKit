@@ -215,7 +215,7 @@ body {
     width: 260px;
     height: 260px;
   }
-  [class*=__container] .item-slider__image img {
+  [class*=__container] .item-slider__image .img {
     width: 260px;
     height: 260px;
   }
