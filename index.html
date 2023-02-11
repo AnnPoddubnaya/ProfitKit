@@ -5,27 +5,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/style.scss">
+    <link rel="stylesheet" href="./css/style.css">
     <title>ProfitKit</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-
-            </div>
-        </header>
         <main class="main">
             <div class="main__container">
-                hello world
+                <nav class="main__tabs tabs">
+                    <ul class="tabs__list">
+                        <li class="tab__item active" data-tab="tab1">
+                            <a href="#" class="tab__link">популярные товары</a>
+                        </li>
+                        <li class="tab__item" data-tab="tab2">
+                            <a href="#" class="tab__link">Недавно купили</a>
+                        </li>
+                        <li class="tab__item" data-tab="tab3">
+                            <a href="#" class="tab__link">Вас может заинтересовать</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="main__slider slider">
+                    <div class="slider__arrow left">
+                        <img src="./image/icon/arrow-left.png" alt="arrow-left">
+                    </div>
+                    <div class="slider__items items-slider">
+                        <div class="slider__line">
+                            <div class="slider__tabs-popular tab tab1 active-tab ">
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/01.png" alt="NoFoto">
+                                    </a>
+                                    <div class="item-slider__title">Тарелка керамическая ручной работы ⌀ 12</div>
+                                    <div class="item-slider__price old-price">600 ₽</div>
+
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+                                </div>
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/02.png" alt="Flowerpot">
+                                    </a>
+                                    <div class="item-slider__title">Кашпо для цветов керамическое СИМПЛГРЕЙ</div>
+                                    <div class="item-slider__price">450 ₽</div>
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+                                </div>
+                                <div class="item-slider ">
+                                    <div class="item-slider__image ">
+                                        <img class="img" src="/image/03.png" alt="Clock">
+                                        <img src="./image/icon/hit.png" alt="hit" class="hit">
+                                    </div>
+                                    <div class="item-slider__title">Умные часы SMARTWATCH XM 109 черный</div>
+                                    <div class="item-slider__price">12 999 ₽</div>
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+                                </div>
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/04.png" alt="Ring">
+                                        <img src="./image/icon/new.png" alt="new" class="new">
+                                    </a>
+                                    <div class="item-slider__title">Золотое кольцо МАЛИКА с аметистом и фианитами</div>
+                                    <div class="item-slider__price">15 700 ₽</div>
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+
+                                </div>
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/05.png" alt="Ring">
+                                    </a>
+                                    <div class="item-slider__title">Стул</div>
+                                    <div class="item-slider__price">5 700 ₽</div>
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+
+                                </div>
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/01.png" alt="NoFoto">
+                                    </a>
+                                    <div class="item-slider__title">Тарелка керамическая ручной работы ⌀ 12</div>
+                                    <div class="item-slider__price old-price">600 ₽</div>
+
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+                                </div>
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/02.png" alt="Flowerpot">
+                                    </a>
+                                    <div class="item-slider__title">Кашпо для цветов керамическое СИМПЛГРЕЙ</div>
+                                    <div class="item-slider__price">450 ₽</div>
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__tabs-recently tab tab2">
+
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/03.png" alt="Clock">
+                                    </a>
+                                    <div class="item-slider__title">Умные часы SMARTWATCH XM 109 черный</div>
+                                    <div class="item-slider__price">12 999 ₽</div>
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                                <img src="./image/icon/hit.png" alt="hit" class="hit">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="slider__tabs-interesting tab tab3">
+
+                                <div class="item-slider">
+                                    <a class="item-slider__image">
+                                        <img class="img" src="/image/04.png" alt="Ring">
+                                        <img src="./image/icon/new.png" alt="new" class="new">
+                                    </a>
+                                    <div class="item-slider__title">Золотое кольцо МАЛИКА с аметистом и фианитами</div>
+                                    <div class="item-slider__price">15 700 ₽</div>
+                                    <div class="item-slider__cart cart">
+                                        <div class="cart__select">
+                                            <button class="btn" data-id="minus">
+                                                <img src="./image/icon/minus.svg" alt="minus">
+                                            </button>
+                                            <div class="count">1</div>
+                                            <button class="btn" data-id="plus"> <img src="./image/icon/plus.svg"
+                                                    alt="minus"></button>
+                                        </div>
+                                        <button class="cart__button">В корзину</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__arrow right">
+                        <img src="./image/icon/arrow-right.png" alt="arrow-right">
+                    </div>
+                </div>
             </div>
         </main>
-        <footer class="footer">
-            <div class="footer__container">
-
-            </div>
-        </footer>
     </div>
     <script src="./js/index.js"></script>
 </body>
