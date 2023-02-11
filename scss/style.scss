@@ -93,9 +93,6 @@ body {
 
 
 //--------------nav-------------
-.main__tabs {}
-
-.tabs {}
 
 .tabs__list {
     display: flex;
@@ -125,7 +122,6 @@ body {
     line-height: 40px;
     text-transform: uppercase;
     color: var(--color-black);
-
 }
 
 .tab {
@@ -136,25 +132,16 @@ body {
     display: flex;
 }
 
-.tab__link {}
-
-
 //-----------slider--------
-
-.main {
-
-
-
-    &__slider {}
-}
-
 .slider {
     display: flex;
 
-    &__arrow {}
+    &__arrow:hover {
+        transition: ease 0.6s;
+        transform: scale(1.1);
+    }
 
     &__items {
-
         overflow: hidden;
         width: 1396px;
         height: 496px;
@@ -164,7 +151,6 @@ body {
         display: flex;
         gap: 20px;
         align-items: center;
-
     }
 }
 
@@ -182,10 +168,6 @@ body {
 .right {
     margin: 228px 176px 0 46px;
 }
-
-.items-slider {}
-
-
 
 .item-slider {
     box-sizing: border-box;
