@@ -577,8 +577,15 @@ body {
   padding: 11px;
 }
 
+.swiper__mob {
+  display: none;
+}
+
 @media (max-width: 425px) {
   .swiper__mob {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
   }
   .item-slider {

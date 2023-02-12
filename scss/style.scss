@@ -633,6 +633,17 @@ body {
     padding: 11px;
 }
 
+.swiper {
+
+    // .slider__mob
+
+    &__mob {
+        // display: flex;
+        // position: relative;
+        display: none;
+
+    }
+}
 
 
 //slider-mob
@@ -642,7 +653,7 @@ body {
         // .slider__mob
 
         &__mob {
-            // display: flex;
+            display: flex;
             position: relative;
             // display: none;
 
