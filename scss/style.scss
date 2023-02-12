@@ -361,7 +361,7 @@ body {
         }
 
         .main__slider {
-            display: none;
+            // display: none;
         }
 
         .tabs__list {
@@ -633,82 +633,71 @@ body {
     padding: 11px;
 }
 
-.swiper {
-
-    // .slider__mob
-
-    &__mob {
-        // display: flex;
-        // position: relative;
-        display: none;
-
-    }
-}
 
 
 //slider-mob
-@media (max-width: 425px) {
-    .swiper {
+// @media (max-width: 425px) {
+//     .swiper {
 
-        // .slider__mob
+//         // .slider__mob
 
-        &__mob {
-            display: flex;
-            position: relative;
-            // display: none;
+//         &__mob {
+//             // display: flex;
+//             position: relative;
+//             // display: none;
 
-        }
-    }
+//         }
+//     }
 
-    .items {}
+//     .items {}
 
-    .item-slider {
-        position: absolute;
-        top: 30px;
-        left: 70px;
-        // .item-slider__image
+//     .item-slider {
+//         position: absolute;
+//         top: 50px;
+//         left: 70px;
+//         // .item-slider__image
 
-        &__image {}
+//         &__image {}
 
-        // .item-slider__title
+//         // .item-slider__title
 
-        &__title {}
+//         &__title {}
 
-        // .item-slider__price
+//         // .item-slider__price
 
-        &__price {}
+//         &__price {}
 
-        // .item-slider__cart
+//         // .item-slider__cart
 
-        &__cart {}
-    }
+//         &__cart {}
+//     }
 
-    .img {}
+//     .img {}
 
-    .icon-add {}
+//     .icon-add {}
 
-    .icon-select {}
+//     .icon-select {}
 
-    .icon-bar {}
+//     .icon-bar {}
 
-    .old-price {}
+//     .old-price {}
 
-    .cart {
+//     .cart {
 
-        // .cart__select
+//         // .cart__select
 
-        &__select {}
+//         &__select {}
 
-        // .cart__button
+//         // .cart__button
 
-        &__button {}
-    }
+//         &__button {}
+//     }
 
-    .btn {}
+//     .btn {}
 
-    .count {}
+//     .count {}
 
-    .hit {}
+//     .hit {}
 
-    .new {}
-}
+//     .new {}
+// }

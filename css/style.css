@@ -303,9 +303,6 @@ body {
   [class*=__container] [class*=__container] {
     max-width: 425px;
   }
-  [class*=__container] .main__slider {
-    display: none;
-  }
   [class*=__container] .tabs__list {
     margin: 80px 0 40px 60px;
     gap: 5px;
@@ -575,22 +572,4 @@ body {
 
 .count {
   padding: 11px;
-}
-
-.swiper__mob {
-  display: none;
-}
-
-@media (max-width: 425px) {
-  .swiper__mob {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-  }
-  .item-slider {
-    position: absolute;
-    top: 30px;
-    left: 70px;
-  }
 }
